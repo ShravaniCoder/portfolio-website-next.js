@@ -31,8 +31,9 @@ const Hero = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Transforming ideas into captivating digital journeys with creativity
-            and code.
+            Transforming ideas into captivating digital journeys with code and
+            creativity. Elevating user experiences through innovative web
+            solutions.
           </p>
           <div>
             <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-100 text-white">
