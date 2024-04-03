@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Weather App",
-    description: "Using React.js",
+    description: "Using React.js, Tailwind-css",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Todo List App",
-    description: "Using Next.js",
+    description: "Using Next.js, Tailwind-css",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Password Generator",
-    description: "Using React.js",
+    description: "Using React.js, Tailwind-css",
     image: "/images/projects/6.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
@@ -81,7 +81,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-white mt-6 mb-4 md:mb-12">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
