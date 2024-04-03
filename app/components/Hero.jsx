@@ -49,7 +49,7 @@ const Hero = () => {
               onClick={openGithubRepository}
               className="px-1 py-1 rounded-full w-full sm:w-fit lg:mr-4 mb-4  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white mt-3"
             >
-              <span className="bg-[#121212] gap-x-2 justify-center items-center sm:block lg:flex hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="bg-[#121212] gap-x-2 justify-center items-center flex hover:bg-slate-800 rounded-full px-5 py-2">
                 <FaGithub />
                 GitHub
               </span>
