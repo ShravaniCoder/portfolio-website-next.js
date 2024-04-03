@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { FaGithub } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -36,6 +37,12 @@ const Hero = () => {
             solutions.
           </p>
           <div>
+            <button className="px-1 py-1 rounded-full w-full sm:w-fit lg:mr-4 mb-4  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white mt-3">
+              <span className="bg-[#121212] gap-x-2 justify-center items-center sm:block lg:flex hover:bg-slate-800 rounded-full px-5 py-2">
+                <FaGithub />
+                GitHub
+              </span>
+            </button>
             <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-100 text-white">
               Hire Me
             </button>

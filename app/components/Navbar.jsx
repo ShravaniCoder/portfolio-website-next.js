@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import NavLink from "./NavLink";
 import MenuOverlay from "./MenuOverlay";
+import { FaGithub } from "react-icons/fa";
 
 
 const navLinks = [
