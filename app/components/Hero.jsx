@@ -3,8 +3,16 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 const Hero = () => {
+  const openGithubRepository = () => {
+    window.open("https://github.com/ShravaniCoder?tab=repositories", "_blank");
+  }; 
+  //const openResume = () => {
+   // window.open("file:///F:/Resume-Shravani-Chendwankar.pdf");
+  //};
+
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -37,7 +45,10 @@ const Hero = () => {
             solutions.
           </p>
           <div>
-            <button className="px-1 py-1 rounded-full w-full sm:w-fit lg:mr-4 mb-4  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white mt-3">
+            <button
+              onClick={openGithubRepository}
+              className="px-1 py-1 rounded-full w-full sm:w-fit lg:mr-4 mb-4  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white mt-3"
+            >
               <span className="bg-[#121212] gap-x-2 justify-center items-center sm:block lg:flex hover:bg-slate-800 rounded-full px-5 py-2">
                 <FaGithub />
                 GitHub
@@ -48,7 +59,9 @@ const Hero = () => {
             </button>
             <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                <Link
+                  href={"file:///F:/Resume-Shravani-Chendwankar.pdf"}
+                > Download CV</Link>
               </span>
             </button>
           </div>
