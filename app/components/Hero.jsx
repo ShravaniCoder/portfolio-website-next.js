@@ -54,7 +54,7 @@ const Hero = () => {
                 GitHub
               </span>
             </button>
-            <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-100 text-white">
+            <button className="px-6 py-3 rounded-full w-full md:ml-2 sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-100 text-white">
               Hire Me
             </button>
             <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white mt-3">

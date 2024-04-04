@@ -18,10 +18,10 @@ const About = () => {
         <div className="text-start">
           <p className="text-base lg:text-lg sm:text-xs mt-2">
             I am a frondend developer with a passion for creating interactive
-            and responsive web apps. I have experience working with
-            Html5, Tailwind.css, Javascript, React.js, Next.js, Git and Github.
-            I am a quick learner and I am always looking to expand my knowledge
-            and skill set. I am a team player, who aims to work with small
+            and responsive web apps. I have experience working with Html5,
+            Tailwind.css, Javascript, React.js, Next.js, Git and Github. I am a
+            quick learner and I am always looking to expand my knowledge and
+            skill set. I am a team player, who aims to work with small
             businesses and marginalized communities to bring their passions to
             life. I am excited to work with others to create amazing apps.
           </p>
