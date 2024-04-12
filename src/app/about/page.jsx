@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -29,6 +29,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
 export default About;

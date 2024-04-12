@@ -1,31 +1,13 @@
-"use client";
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 
-async function handleSubmit(event) {
-  event.preventDefault();
-  const data = {
-    email: String(event.target.email.value),
-    subject: String(event.target.subject.value),
-    message: String(event.target.message.value),
-  }
-  console.log(data)
-}
-
-  
-
-const Contact = () => {
+const Email = () => {
   return (
     <section className="grid md:grid-cols-2 py-24 gap-4 my-12 md:my-12">
-      <div >
-        <h5
-          
-          className="text-4xl font-bold text-white my-2"
-        >
-          Contact Me
-        </h5>
-        <p  className="text-[#ADB7BE] mb-4 max-w-md">
+      <div>
+        <h5 className="text-4xl font-bold text-white my-2">Contact Me</h5>
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
           Feel free to reach out to me via email at
           [shravanichendwankar@gmail.com] for inquiries about frontend
           development projects, collaboration opportunities, or just to say
@@ -33,7 +15,7 @@ const Contact = () => {
           forward to discussing how we can work together to bring your ideas to
           life.
         </p>
-        <div  className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2">
           <Link href={"https://github.com/ShravaniCoder?tab=repositories"}>
             {" "}
             <FaGithub className="text-white text-2xl" />
@@ -49,27 +31,27 @@ const Contact = () => {
         </div>
       </div>
       <div>
-        <form className="flex flex-col" onSubmit={handleSubmit}>
+        <form className="flex flex-col">
           <div className="mb-6">
             <label
-              htmlFor="email"
-              className="text-white block text-lg font-medium mb-2"
+              htmlFor="frm-email"
+              className="text-white block mb-2 text-sm font-medium"
             >
-              Your Email
+              Your email
             </label>
             <input
               name="email"
               type="email"
-              id="email"
+              id="frm-email"
               required
-              placeholder="example@gmail.com"
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2"
+              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+              placeholder="jacob@google.com"
             />
           </div>
           <div className="mb-6">
             <label
               htmlFor="subject"
-              className="text-white block text-lg font-medium mb-2"
+              className="text-white block text-sm mb-2 font-medium"
             >
               Subject
             </label>
@@ -78,34 +60,34 @@ const Contact = () => {
               type="text"
               id="subject"
               required
-              placeholder="Share Your Interests or Needs"
-              className="bg-[#18191E] mb-1 border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2"
+              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+              placeholder="Just saying hi"
             />
           </div>
           <div className="mb-6">
             <label
               htmlFor="message"
-              className="text-white block text-lg mb-2 font-medium"
+              className="text-white block text-sm mb-2 font-medium"
             >
               Message
             </label>
             <textarea
               name="message"
               id="message"
-              className="bg-[#18191E] mb-1 border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2"
-              placeholder="Let's talk about...."
+              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+              placeholder="Let's talk about..."
             />
-            <button
-              type="submit"
-              className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg mt-3 w-full"
-            >
-              Send Message
-            </button>
           </div>
+          <button
+            type="submit"
+            className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+          >
+            Send Message
+          </button>
         </form>
       </div>
     </section>
   );
 };
 
-export default Contact;
+export default Email;
