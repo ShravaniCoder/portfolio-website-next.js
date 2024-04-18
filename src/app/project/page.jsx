@@ -11,7 +11,7 @@ const projectsData = [
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://dancing-donut-a5917e.netlify.app/",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://mellow-treacle-7ad4ea.netlify.app/",
   },
   {
     id: 3,
@@ -29,16 +29,16 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://candid-bavarois-3a0cbc.netlify.app/",
   },
   {
     id: 4,
-    title: "Weather App",
+    title: "Carousal & Drop-drown",
     description: "Using React.js, Tailwind-css",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://delightful-maamoul-b001d9.netlify.app/",
   },
   {
     id: 5,

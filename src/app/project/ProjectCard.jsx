@@ -2,16 +2,16 @@ import React from "react";
 import { CodeBracketIcon} from "@heroicons/react/24/solid";
 import Link from "next/link";
 
-const ProjectCard = ({ imgUrl, title, description }) => {
+const ProjectCard = ({ imgUrl, title, description, previewUrl }) => {
   return (
     <div>
       <div
         className="h-52 md:h-72 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        style={{ background: `url(${imgUrl})`, backgroundSize: "contain" }}
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500">
           <Link
-            href="https://660cfe287f6d279a472c389e--dancing-donut-a5917e.netlify.app/"
+            href={previewUrl}
             className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white"
           >
             <CodeBracketIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#ADB7BE] cursor-pointer hover:text-white" />
