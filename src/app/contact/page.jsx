@@ -1,9 +1,12 @@
+"use client"
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Email = () => {
   return (
+    <motion.div className="h-full" initial={{y:"-200vh"}} animate={{y:"0%"}} transition={{duration:1}}>
     <section className="grid md:grid-cols-2 py-24 gap-4 my-12 md:my-12">
       <div>
         <h5 className="text-4xl font-bold text-white my-2">Contact Me</h5>
@@ -86,7 +89,8 @@ const Email = () => {
           </button>
         </form>
       </div>
-    </section>
+      </section>
+      </motion.div>
   );
 };
 
