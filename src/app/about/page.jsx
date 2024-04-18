@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import AboutImg from "../../../public/images/about-img.png"
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-full overflow-scroll lg:flex">
-        <div className="p-4 sm:p-8 md:12 lg:p:20 xl:p:48 flex flex-col gap-12 md:gap-24 lg:gap-32 xl:gap-48">
+        <div className="p-4 sm:p-8 md:12 lg:p:20 xl:p:48 flex flex-col gap-12 md:gap-24 lg:gap-32 xl:gap-48 lg:w-2/3 xl:w-1/2 lg:pr:0">
           <div className="flex flex-col gap-8 justify-center">
             <h1 className="font-bold text-2xl">ABOUT ME</h1>
             <p className="text-lg lg:text-lg sm:text-xs mt-2">
@@ -60,10 +61,10 @@ const About = () => {
           <div className="flex flex-col gap-10 justify-center pb-5">
             <h1 className="font-bold text-2xl">EXPERIENCE</h1>
             <div>
-              <div className="p-1 rounded-b-lg rounded-s-lg bg-blue-700 text-white w-[40%] md:w-[20%] lg:w-[9%] text-base font-bold">
+              <div className="p-1 rounded-b-lg rounded-s-lg bg-blue-700 text-white w-[40%] md:w-[20%] lg:w-[20%] text-base font-bold">
                 Experts Coder
               </div>
-              <div className="bg-white p-1 font-semibold text-xl rounded-b-lg rounded-s-lg mt-4 lg:w-[22%] md:w-[50%]">
+              <div className="bg-white p-1 font-semibold text-xl rounded-b-lg rounded-s-lg mt-4 lg:w-[50%] md:w-[50%]">
                 Frontend Web Developer Intern
               </div>
               <div className="p-3 text-base">
@@ -76,7 +77,9 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block"></div>
+        <div className="hidden lg:block w-1/2 xl:1/2 sticky top-0 z-30">
+          <Image src={AboutImg} alt="about-img"  />
+        </div>
       </div>
     </motion.div>
   );
