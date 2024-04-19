@@ -41,12 +41,12 @@ const Homepage = () => {
                 className="text-black"
               />
             </h1>
-            <p className="text-indigo-600 font-semibold text-base sm:text-xl md:text-xl lg:text-2xl mb-2">
+            <p className="text-indigo-600 font-semibold text-center text-base sm:text-xl md:text-xl lg:text-2xl mb-2">
               Transforming ideas into captivating digital journeys with code and
               creativity. Elevating user experiences through innovative web
               solutions.
             </p>
-            <p className="text-indigo-600 font-semibold text-base sm:text-xl md:text-xl lg:text-2xl mb-4">
+            <p className="text-indigo-600 font-semibold text-center text-base sm:text-xl md:text-xl lg:text-2xl mb-4">
               Welcome to my website! As a dedicated web developer, I am
               committed to crafting innovative projects that enhance user
               interface and experience.
