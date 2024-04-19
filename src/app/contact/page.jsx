@@ -5,6 +5,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import Image from "next/image";
+import Insta from "@/public/images/insta.png";
 
 const Email = () => {
   const [success, setSuccess] = useState(false);
@@ -69,6 +71,15 @@ const Email = () => {
               <Link href={"https://twitter.com/CodeCraftSherry"}>
                 <FaTwitter className="text-blue-500 text-2xl" />
               </Link>
+              <Link href={"https://www.instagram.com/shravani_chendwankar/"}>
+                <Image
+                  src={Insta}
+                  alt="socials"
+                  width={24}
+                  height={24}
+                  className="rounded-md"
+                />
+              </Link>
             </div>
           </div>
           <div>
@@ -109,8 +120,16 @@ const Email = () => {
               >
                 Send Message
               </button>
-              {success && <span className="text-green-600 font-semibold">Your message has been sent successfully!</span>}
-              {error && <span className="text-red-600 font-semibold">Something went wrong!</span>}
+              {success && (
+                <span className="text-green-600 font-semibold">
+                  Your message has been sent successfully!
+                </span>
+              )}
+              {error && (
+                <span className="text-red-600 font-semibold">
+                  Something went wrong!
+                </span>
+              )}
             </form>
           </div>
         </section>

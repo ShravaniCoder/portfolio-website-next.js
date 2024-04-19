@@ -9,7 +9,7 @@ import {
   
 } from "react-icons/fa";
 import Image from 'next/image';
-import Insta from '@/public/images/insta.png'
+import Insta from '@/public/images/insta.png';
 import NavLink from './navLinks';
 import { motion, stagger } from 'framer-motion';
 
