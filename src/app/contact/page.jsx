@@ -8,6 +8,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import Insta from "@/public/images/insta.png";
 
+
 const Email = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
