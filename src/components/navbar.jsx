@@ -16,9 +16,9 @@ import { motion, stagger } from 'framer-motion';
 
 const links = [
   { url: "/", title: "Home" },
-  { url: "/About", title: "About" },
+  { url: "/about", title: "About" },
   { url: "/Projects", title: "Projects" },
-  { url: "/Contact", title: "Contact" },
+  { url: "/contact", title: "Contact" },
 ];
 
 const Navbar = () => {
