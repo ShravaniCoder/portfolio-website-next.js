@@ -76,7 +76,7 @@ const Navbar = () => {
 
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:12 lg:px:20 xl:px:48 text-xl">
-      <div className="md:hidden lg:flex">
+      <div className="flex">
         <Link
           href="/"
           className="text-lg font-semibold bg-gradient-to-r from-purple-500 to-pink-500 rounded-full p-3"
@@ -89,7 +89,7 @@ const Navbar = () => {
           <NavLink link={link} key={link.title} />
         ))}
       </div>
-      <div className="hidden md:flex gap-4">
+      <div className="hidden lg:flex gap-4">
         <Link href={"https://github.com/ShravaniCoder?tab=repositories"}>
           {" "}
           <FaGithub className="text-black text-2xl" />
