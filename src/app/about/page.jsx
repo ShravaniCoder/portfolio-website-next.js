@@ -17,7 +17,7 @@ const About = () => {
           <div className="flex flex-col gap-8 justify-center">
             <h1 className="font-bold text-2xl">ABOUT ME</h1>
             <p className="text-lg lg:text-lg sm:text-xs mt-2">
-              I am a frondend developer with a passion for creating interactive
+              I am a frontend developer with a passion for creating interactive
               and responsive web apps. I have experience working with Html5,
               Tailwind.css, Javascript, React.js, Next.js, Git and Github. I am
               a quick learner and I am always looking to expand my knowledge and
