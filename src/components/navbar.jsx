@@ -77,11 +77,10 @@ const Navbar = () => {
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:12 lg:px:20 xl:px:48 text-xl">
       <div className="flex">
-        <Link
-          href="/"
-          className="text-lg font-semibold bg-gradient-to-r from-purple-500 to-pink-500 rounded-full p-3"
-        >
-          <span className="text-white">Portfolio</span>
+        <Link href="/">
+          <span className="font-semibold text-black text-2xl">
+            Portfolio.
+          </span>
         </Link>
       </div>
       <div className="hidden md:flex gap-4">

@@ -46,7 +46,7 @@ const Email = () => {
         <section className="grid md:grid-cols-2 py-12 gap-4 my-12 md:my-12 px-4 sm:px-8 md:12 lg:px:20 xl:px:48">
           <div>
             <h5 className="text-4xl font-bold text-black my-2">Contact Me🥰</h5>
-            <p className="text-indigo-600 font-semibold mb-4 max-w-md">
+            <p className="text-black font-semibold mb-4 max-w-md">
               Feel free to reach out to me via email at
               [shravanichendwankar@gmail.com] for inquiries about frontend
               development projects, collaboration opportunities, or just to say
