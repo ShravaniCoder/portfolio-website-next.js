@@ -7,7 +7,7 @@ const projectsData = [
   {
     id: 1,
     title: "Two good co. Website",
-    description: "Animation website Using Html5, CSS, Javascript",
+    description: "Using Html5, CSS, Javascript",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,7 +16,7 @@ const projectsData = [
   {
     id: 2,
     title: "Ecommerce Website",
-    description: "Responsive Website Using Html5, CSS, Javascript",
+    description: "Using Html5, CSS, Javascript",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -25,7 +25,7 @@ const projectsData = [
   {
     id: 3,
     title: "Pokemon Game",
-    description: "By Using Html5, CSS, Javascript",
+    description: "Using Html5, CSS, Javascript",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
