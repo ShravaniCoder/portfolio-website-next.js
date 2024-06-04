@@ -111,7 +111,7 @@ const Project = () => {
             initial="initial"
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
+          >           
             <ProjectCard
               key={project.id}
               title={project.title}
@@ -119,7 +119,8 @@ const Project = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
-            />
+              
+              />
           </motion.li>
         ))}
       </ul>
