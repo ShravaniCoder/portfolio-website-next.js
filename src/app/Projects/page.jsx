@@ -68,6 +68,15 @@ const projectsData = [
     previewUrl:
       "https://flight-booking-website-jade.vercel.app/?category=all-international-airports",
   },
+  {
+    id: 8,
+    title: "Bhouse Website",
+    description: "Using React.js, Tailwind-css",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "/",
+    previewUrl: "https://bhouse-shravanichendwankar06-2p3nu957g.vercel.app/",
+  },
 ];
 
 const Project = () => {
