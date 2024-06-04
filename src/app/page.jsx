@@ -19,7 +19,7 @@ const Homepage = () => {
     >
       <div className="flex flex-col  px-4 sm:px-8 md:12 lg:px:20 xl:px:48 h-full overflow-scroll">
         <div className="flex justify-center items-center lg:items-center">
-          <div className="img rounded-full bg-[#181818] w-[110px] h-[110px] md:w-[110px] md:h-[110px] lg:w-[110px] lg:h-[110px] relative">
+          <div className="img rounded-full bg-white w-[110px] h-[110px] md:w-[110px] md:h-[110px] lg:w-[110px] lg:h-[110px] relative">
             <Image
               src={Hero}
               alt="hero image"
