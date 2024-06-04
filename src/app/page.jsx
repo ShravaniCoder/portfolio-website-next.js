@@ -40,7 +40,7 @@ const Homepage = () => {
                 // Same substring at the start will only be typed out once, initially
                 "Shravani Chendwankar",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "UI/UX Designer",
+                "UI/UX Developer",
                 1000,
                 "Frontend Developer",
                 1000,
