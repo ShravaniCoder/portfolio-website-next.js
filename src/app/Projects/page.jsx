@@ -58,6 +58,16 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 7,
+    title: "Flight Booking Website",
+    description: "Using Next.js, Tailwind-css",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "/",
+    previewUrl:
+      "https://flight-booking-website-jade.vercel.app/?category=all-international-airports",
+  },
 ];
 
 const Project = () => {
