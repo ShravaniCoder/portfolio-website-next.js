@@ -75,7 +75,8 @@ const projectsData = [
     image: "/images/projects/8.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
-    previewUrl: "https://bhouse-shravanichendwankar06-2p3nu957g.vercel.app/",
+    previewUrl:
+      "https://66607f4e4f2a3630fef9bb3a--harmonious-speculoos-53e882.netlify.app/",
   },
 ];
 
