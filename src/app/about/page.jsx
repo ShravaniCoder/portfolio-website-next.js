@@ -33,13 +33,13 @@ const About = () => {
                 React.js
               </div>
               <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Next.js
-              </div>
-              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Node.js
+                CSS
               </div>
               <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Tailwind CSS
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Material UI
               </div>
               <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Bootstrap
@@ -49,6 +49,15 @@ const About = () => {
               </div>
               <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Framer motion
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Next.js
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Node.js
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Express.js
               </div>
               <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 MongoDB
@@ -61,24 +70,51 @@ const About = () => {
           <div className="flex flex-col gap-10 justify-center pb-5">
             <h1 className="font-bold text-2xl">EXPERIENCE</h1>
             <div>
-              <div className="p-1 rounded-b-lg rounded-s-lg bg-blue-700 text-white w-[40%] md:w-[20%] lg:w-[20%] text-base font-bold">
+              <div className="p-2 rounded-b-lg rounded-s-lg bg-[#03516D] text-white w-[40%] md:w-[20%] lg:w-[20%] text-base font-bold">
                 Experts Coder
               </div>
-              <div className="bg-white p-1 font-semibold text-xl rounded-b-lg rounded-s-lg mt-4 lg:w-[50%] md:w-[50%]">
-                Frontend Web Developer Intern
+              <div className="flex gap-2 items-center justify-between">
+                <div className="bg-white p-2 font-semibold text-lg rounded-b-lg rounded-s-lg mt-4 lg:w-[50%] md:w-[50%]">
+                  Frontend Web Developer Intern
+                </div>
+
+                <div className="p-3 text-red-400 font-semibold">
+                  1st March 2024 - 5th June 2024
+                </div>
               </div>
-              <div className="p-3 text-base">
-                Embracing every challenge, learning with every step, and growing
-                through every project.
+            </div>
+            <div>
+              <div className="p-2 rounded-b-lg rounded-s-lg bg-[#40E0D0] text-white w-[40%] md:w-[20%] lg:w-[20%] text-base font-bold">
+                MixDorm
               </div>
-              <div className="p-3 text-red-400 font-semibold">
-                March 2024 - Present
+              <div className="flex gap-2 items-center justify-between">
+                <div className="bg-white p-2 font-semibold text-lg rounded-b-lg rounded-s-lg mt-4 lg:w-[50%] md:w-[50%]">
+                  Freelance Web Designer
+                </div>
+
+                <div className="p-3 text-red-400 font-semibold">
+                  1st August 2024 - 31st August 2024
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="p-2 rounded-b-lg rounded-s-lg bg-[#485C89] text-white w-[40%] md:w-[40%] lg:w-[40%] text-base font-bold">
+                Virtus Interior Products
+              </div>
+              <div className="flex gap-2 items-center justify-between">
+                <div className="bg-white p-2 font-semibold text-lg rounded-b-lg rounded-s-lg mt-4 lg:w-[50%] md:w-[50%]">
+                  Full Stack Web Developer
+                </div>
+
+                <div className="p-3 text-red-400 font-semibold">
+                  15th June 2024 - 31st September 2024
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="hidden lg:block w-1/2 xl:1/2 sticky top-0 z-30">
-          <Image src={AboutImg} alt="about-img"  />
+          <Image src={AboutImg} alt="about-img" />
         </div>
       </div>
     </motion.div>

@@ -6,6 +6,24 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Virtus Interior Products",
+    description: "Full stack website Using React.js, Node.js, Express.js",
+    image: "/images/projects/9.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://virtusinteriorproducts.com/",
+  },
+  {
+    id: 2,
+    title: "Timeline Chart",
+    description: "Using React.js, TailwindCSS, Material-UI",
+    image: "/images/projects/10.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://jolly-kashata-ce7a2d.netlify.app/",
+  },
+  {
+    id: 3,
     title: "Two good co. Website",
     description: "Using Html5, CSS, Javascript",
     image: "/images/projects/1.png",
@@ -14,7 +32,7 @@ const projectsData = [
     previewUrl: "https://dancing-donut-a5917e.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Ecommerce Website",
     description: "Using Html5, CSS, Javascript",
     image: "/images/projects/2.png",
@@ -23,7 +41,7 @@ const projectsData = [
     previewUrl: "https://mellow-treacle-7ad4ea.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Pokemon Game",
     description: "Using Html5, CSS, Javascript",
     image: "/images/projects/3.png",
@@ -32,7 +50,7 @@ const projectsData = [
     previewUrl: "https://candid-bavarois-3a0cbc.netlify.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Carousal & Drop-drown",
     description: "Using React.js, Tailwind-css",
     image: "/images/projects/4.png",
@@ -41,7 +59,7 @@ const projectsData = [
     previewUrl: "https://delightful-maamoul-b001d9.netlify.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Todo List App",
     description: "Using Next.js, Tailwind-css",
     image: "/images/projects/5.png",
@@ -50,7 +68,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Password Generator",
     description: "Using React.js, Tailwind-css",
     image: "/images/projects/6.png",
@@ -59,7 +77,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 7,
+    id: 9,
     title: "Flight Booking Website",
     description: "Using Next.js, Tailwind-css",
     image: "/images/projects/7.png",
@@ -69,7 +87,7 @@ const projectsData = [
       "https://flight-booking-website-jade.vercel.app/?category=all-international-airports",
   },
   {
-    id: 8,
+    id: 10,
     title: "Bhouse Website",
     description: "Using React.js, Tailwind-css",
     image: "/images/projects/8.png",
@@ -113,7 +131,7 @@ const Project = () => {
         My Projects
       </h2>
 
-      <ul ref={ref} className="grid md:grid-cols-4 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}

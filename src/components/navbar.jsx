@@ -1,18 +1,12 @@
-"use client"
-import React from 'react'
-import Link from 'next/link';
-import { useState } from 'react';
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  
-} from "react-icons/fa";
-import Image from 'next/image';
-import Insta from '@/public/images/insta.png';
-import NavLink from './navLinks';
-import { motion, stagger } from 'framer-motion';
-
+"use client";
+import React from "react";
+import Link from "next/link";
+import { useState } from "react";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Image from "next/image";
+import Insta from "@/public/images/insta.png";
+import NavLink from "./navLinks";
+import { motion, stagger } from "framer-motion";
 
 const links = [
   { url: "/", title: "Home" },
@@ -29,8 +23,8 @@ const Navbar = () => {
     },
     opened: {
       rotate: 45,
-      backgroundColor: "rgb(255,255,255)"
-    }
+      backgroundColor: "rgb(255,255,255)",
+    },
   };
   const centerVariants = {
     closed: {
@@ -59,9 +53,9 @@ const Navbar = () => {
       transition: {
         when: "beforeChildren",
         staggerChildren: 0.2,
-      }
-    }
-  }
+      },
+    },
+  };
 
   const ListItemVariants = {
     closed: {
@@ -70,17 +64,15 @@ const Navbar = () => {
     },
     opened: {
       x: 0,
-      opacity: 1
-    }
-  }
+      opacity: 1,
+    },
+  };
 
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:12 lg:px:20 xl:px:48 text-xl">
       <div className="flex">
         <Link href="/">
-          <span className="font-semibold text-black text-2xl">
-            Portfolio.
-          </span>
+          <span className="font-semibold text-black text-2xl">Portfolio.</span>
         </Link>
       </div>
       <div className="hidden md:flex gap-4">
@@ -149,6 +141,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

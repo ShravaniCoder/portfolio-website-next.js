@@ -37,14 +37,14 @@ const Homepage = () => {
             <br />
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
+               
                 "Shravani Chendwankar",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "UI/UX Developer",
+                1000, 
+                "Web Designer",
                 1000,
                 "Frontend Developer",
                 1000,
-                "Next.js Developer",
+                "React.js Developer",
                 1000,
               ]}
               wrapper="span"
@@ -64,8 +64,8 @@ const Homepage = () => {
           <div className="flex flex-wrap gap-4 justify-center lg:justify-center">
             <button className="px-1 py-1 rounded-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white mt-3">
               <Link
-                href="https://drive.google.com/file/d/1LUIqkxB1hIHL9NHlFeTYBnqKWoCdPcfp/view?usp=sharing"
-                download 
+                href="https://drive.google.com/file/d/1IOLh_bHDXyzNzMD00XW4LKo8LrPrQ0I3/view?usp=sharing"
+                download
               >
                 <span className="flex items-center gap-x-2 bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                   My Resume

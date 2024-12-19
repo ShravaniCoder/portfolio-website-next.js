@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
@@ -7,7 +7,6 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import Image from "next/image";
 import Insta from "@/public/images/insta.png";
-
 
 const Email = () => {
   const [success, setSuccess] = useState(false);
@@ -28,11 +27,11 @@ const Email = () => {
       )
       .then(
         () => {
-          setSuccess(true)
-          form.current.reset()
+          setSuccess(true);
+          form.current.reset();
         },
         () => {
-          setError(true)
+          setError(true);
         }
       );
   };
