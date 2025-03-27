@@ -20,7 +20,7 @@ const projectsData = [
     image: "/images/projects/10.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "https://jolly-kashata-ce7a2d.netlify.app/",
+    previewUrl: "https://jolly-kashata-ce7a2d.netlify.app",
   },
   {
     id: 3,
