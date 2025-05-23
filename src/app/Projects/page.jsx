@@ -15,6 +15,15 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Team Tasks Management System",
+    description: "Full stack website Using Next.js",
+    image: "/images/projects/11.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "",
+  },
+  {
+    id: 2,
     title: "Timeline Chart",
     description: "Using React.js, TailwindCSS, Material-UI",
     image: "/images/projects/10.png",
