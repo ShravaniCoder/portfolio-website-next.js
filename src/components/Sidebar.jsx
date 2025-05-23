@@ -30,8 +30,8 @@ const Sidebar = () => {
         />
 
         <p className="text-sm font-light text-center my-6">
-          Hi, my name is Shravani Chendwankar and I'm a web developer. Welcome
-          to my personal website!
+          {`Hi, my name is Shravani Chendwankar and I'm a web developer. Welcome
+  to my personal website!`}
         </p>
 
         <div className="flex gap-3 text-xl">
@@ -46,11 +46,9 @@ const Sidebar = () => {
 
       {/* Navigation Links */}
       <div className="border-b-[0.5px] border-[var(--main-dark-color)] w-full hidden md:flex flex-col items-center gap-6 mt-6 pb-6">
-       
-          {links.map((link) => (
-            <NavLink link={link} key={link.title} />
-          ))}
-        
+        {links.map((link) => (
+          <NavLink link={link} key={link.title} />
+        ))}
       </div>
     </div>
   );
