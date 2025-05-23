@@ -37,9 +37,8 @@ const Homepage = () => {
             <br />
             <TypeAnimation
               sequence={[
-               
                 "Shravani Chendwankar",
-                1000, 
+                1000,
                 "Web Designer",
                 1000,
                 "Frontend Developer",
@@ -64,7 +63,7 @@ const Homepage = () => {
           <div className="flex flex-wrap gap-4 justify-center lg:justify-center">
             <button className="px-1 py-1 rounded-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white mt-3">
               <Link
-                href="https://drive.google.com/file/d/1IOLh_bHDXyzNzMD00XW4LKo8LrPrQ0I3/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Ka-N7Z06_-pFkaDs5HI-d8xN4VqxvBJj/view?usp=sharing"
                 download
               >
                 <span className="flex items-center gap-x-2 bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
